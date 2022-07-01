@@ -8,19 +8,23 @@ function Header() {
         <div className='header-logo'>
             <img src={TeslaLogo} alt='Tesla logo'/>
         </div>
-        <nav className='header-center'>
-                <a href='#'>Model S</a>
-                <a href='#'>Model 3</a>
-                <a href='#'>Model X</a>
-                <a href='#'>Model Y</a>
-                <a href='#'>Solar Roof</a>
-                <a href='#'>Solar Panel</a>
-        </nav>
+        <div className='header-center'>
+            <nav >
+                    <a href='#'>Model S</a>
+                    <a href='#'>Model 3</a>
+                    <a href='#'>Model X</a>
+                    <a href='#'>Model Y</a>
+                    <a href='#'>Solar Roof</a>
+                    <a href='#'>Solar Panel</a>
+            </nav>
+        </div>
 
         <div className='header-right'>
+           <nav>
             <a href='#'>Shop</a>
-            <a href='#'>Account</a>
-            <a href='#'>Menu</a>
+              <a href='#'>Account</a>
+              <a href='#'id='active'>Menu</a>
+           </nav>
         </div>
     </div>
   )

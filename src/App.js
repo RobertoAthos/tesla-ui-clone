@@ -18,45 +18,38 @@ function App() {
              <Items
               title='Model S'
               desc = '$69,420 '
-              descLlink = ''
               backgroundImg = {ModelS}
               first
             />
              <Items
               title='Model 3'
               desc = '$69,420 '
-              descLlink = ''
               backgroundImg = {Model3}
             />
                <Items
               title='Model X'
               desc = '$69,420 '
-              descLlink = ''
               backgroundImg = {ModelX}
 
             />
                <Items
               title='Model Y'
               desc = '$69,420 '
-              descLlink = ''
               backgroundImg = {ModelY}
             />
                <Items
-              title='Solar fpr New Roofs'
+              title='Solar for New Roofs'
               desc = '$69,420 '
-              descLlink = ''
               backgroundImg = {SolarRoof}
             />
             <Items
               title='Lowest Cost Solar Panels in America'
               desc = 'Money-back guarantee'
-              descLlink = ''
               backgroundImg = {SolarPanels}
             />
             <Items
               title='Accessories'
               desc = 'Money-back guarantee'
-              descLlink = ''
               backgroundImg = {Acessories}
             />
         </div>

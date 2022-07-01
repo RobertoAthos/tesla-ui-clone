@@ -3,14 +3,14 @@ import Button from '../Button/Button'
 import {MdKeyboardArrowDown} from 'react-icons/md'
 import './Items-styles.css'
 
-function Items({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, RightBtnTxt, RightBtnLink, first, twoButtons}) {
+function Items({title, desc, backgroundImg, first}) {
   return (
     <div className='item' style={{
             backgroundImage: `url(${backgroundImg})`
     }}>
         <div className='item-container'>
             <div className='item-text'>
-                <p>{title}</p>
+                <h2>{title}</h2>
                 <div className='item-textDesc'>
                     <p>{desc}</p>
                 </div>
